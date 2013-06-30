@@ -6,10 +6,10 @@
 module Jekyll
   # Workaround for commit 5b680f8dd80aac1 in jekyll (remove orphaned files in destination)
   # that deletes all the files created by plugins.
-  class Site
-    def cleanup
-    end
-  end
+  # class Site
+  #   def cleanup
+  #   end
+  # end
 
   class BibtexTag < Liquid::Tag
     # The options that are passed to bibtex2html
